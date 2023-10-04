@@ -8,27 +8,70 @@ body {
     padding-top: 20px;
     padding-left: 300px;
     padding-right: 300px;
+    height: 500px;
+}
+
+.headbox {
+    display: inline-block;
+    width: 1100px;
+    margin-bottom: 100px;
 }
 
 .logo-large {
     color: #f9faf8;
     font-size: 24px;
-    margin-top: 2px;
     font-weight: bold;
     display:inline-flex;
     width: 200px;
+    margin-right: 410px;
 }
 
 .link-container {
-    display:inline-flex;
-    margin-left: 430px;
-    width: 470px;
+    margin-right: 0px;
+    width: 480px;
+    display: inline-flex;
 }
 
 .link {
     font-size: 18px;
     color: #e5e7eb;
-    padding: 10px;
+    padding: 0px;
     display: inline-flex;
+    width: 160px;
+    text-align: center;
+}
+
+.signup-container {
+    display: inline-flex;
+    width: 1100px;
+    height: 400px;
+}
+
+.action {
+    display: inline-block;
+    margin-right: 200px;
+}
+
+.statement {
+    font-weight: bolder;
+    font-size: 48px;
+    color: #f9faf8;
+    display: inline-block;
+    width: 400px;
+}
+
+.subtext {
+    color: #e5e7eb;
+    font-size: 18px;
+    width: 450px;
+    display: block;
+}
+
+.signup1 {
+    display:block;
+}
+
+.image-container {
+    display:inline-flex;
 }
 
