@@ -94,8 +94,9 @@ body {
 }
 
 .illustration-container {
-    display: inline-block;
-    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
 }
 
 .subtext-illustration {
@@ -113,4 +114,61 @@ body {
     border-color: #3882f6;
     border-width: 5px;
     border-radius: 25px;
+}
+
+.description {
+    color: #3c3b3b;
+    margin-top: 5px;
+}
+
+.mid2 {
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding-top: 150px;
+
+}
+
+.quote-container {
+    display: block;
+}
+
+.inspo-quote {
+    display: flex;
+    font-size: 36px;
+    font-weight: 100; /*font weight not displaying properly*/
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author-quote {
+    display: flex;
+    justify-content: right;
+    font-weight: bold;
+    color: #1f2937;
+    font-size: 20px;
+}
+
+.action-yell {
+    display: flex;
+    justify-content: center;
+    width: 1100px;
+    height: auto;
+    background-color: #3882f6;
+}
+
+.action-yell-container {
+    display: inline-flex;
+}
+
+.action-yell-bold {
+    display:block;
+}
+
+.action-yell-subtext {
+    display:block;
+}
+
+.signup2 {
+    display:inline-flex;
 }
